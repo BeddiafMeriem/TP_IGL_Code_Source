@@ -48,5 +48,21 @@ public class VectorHelp {
 		return tab;
 	}
 
-	
+		
+        public int[] somme(int[] tab1 , int[] tab2) throws EgaliteException
+	{
+		int taille1 = tab1.length;
+		int taille2 = tab2.length;
+		int res[] = new int[100];
+		
+			int i=0;
+			for(i=0;i<taille1;i++)
+			{
+				res[i] = tab1[i]+tab2[i];
+			}
+			
+	    
+		return res;	
+	}
+
 }
