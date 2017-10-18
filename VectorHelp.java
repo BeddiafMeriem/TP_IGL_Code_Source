@@ -22,7 +22,7 @@ public class VectorHelp {
 		  }
 		  return tab;
 		}
-	}
+	
 
         public int[] inverser(int[] tab)
 	{
@@ -35,4 +35,18 @@ public class VectorHelp {
 			tab[taille-1-i] = interm;
 		}
 		return tab;
+       }
+	
+	
+	public int[] produit2(int[] tab)
+	{
+		int i=0;
+		for(i=0;i<tab.length;i++)
+		{
+			tab[i] = tab[i]*2;
+		}
+		return tab;
 	}
+
+	
+}
