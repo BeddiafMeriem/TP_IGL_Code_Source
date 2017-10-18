@@ -4,7 +4,7 @@ public class main {
 	public static void main(String args []) throws EgaliteException 
 	{
 		VectorHelp T = new VectorHelp();
-         int[] tab1 = {5, 10, 7, 14};
+         int[] tab1 = {8, 10, 3, 14};
          int[] tab2 = {2, 4 , 7 , 5};
          
        
