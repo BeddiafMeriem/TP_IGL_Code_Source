@@ -7,10 +7,7 @@ public class main {
          int[] tab1 = {5, 10, 7, 14};
          int[] tab2 = {2, 4 , 7 , 5};
          
-         for(int i=0 ; i<tab1.length;i++)
-         {
-        	 System.out.print("  |  " +tab1[i]);
-         }
+       
          System.out.println();
          
         //////////////////////////Test de somme////////////////////////////////////
