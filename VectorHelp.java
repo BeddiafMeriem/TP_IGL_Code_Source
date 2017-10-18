@@ -65,4 +65,12 @@ public class VectorHelp {
 		return res;	
 	}
 
+	public int[] MaxMin(int[] tab)
+	{
+		int[] res = new int[2];
+		trier(tab);
+		res[0] = tab[0]; // le min
+		res[1] = tab[tab.length-1]; // le max
+		return res;
+	}
 }
